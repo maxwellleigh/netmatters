@@ -1,0 +1,106 @@
+/*media queries */
+@media only screen and (max-width: 1250px) {
+  #tertiary-card {
+    display: none !important;
+  }
+  .card-grid {
+    -ms-grid-rows: 3;
+        grid-template-rows: 3;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "alpha beta" "telecomsservices-card bespokesoftware-card"  "gamma omega";
+  }
+  .culture-container {
+    -ms-flex-item-align: left;
+        -ms-grid-row-align: left;
+        align-self: left;
+    width: 900px;
+    height: 400px;
+  }
+  .footer-image {
+    width: auto;
+    height: 55px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-container {
+    display: none;
+  }
+  .footer-image {
+    width: auto;
+    height: 45px;
+  }
+  .support {
+    display: none;
+  }
+  .contact_us {
+    display: none;
+  }
+  .culture {
+    background-image: none;
+  }
+  .culture-container {
+    margin-left: 0px;
+    width: 750px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-weblogo-container,
+  .footer-partner-container {
+    display: none;
+  }
+  .header-style {
+    width: 100%;
+  }
+  .contact-header-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .header-image {
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 75%;
+    height: 75%;
+  }
+  .card-main {
+    margin: 5px;
+    width: 100%;
+  }
+  .card-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 6;
+        grid-template-rows: 6;
+    -ms-grid-columns: (100%)[1];
+        grid-template-columns: repeat(1, 100%);
+        grid-template-areas: "alpha" "beta" "telecomsservices-card" "bespokesoftware-card"  "gamma"  "omega";
+  }
+  #tertiary-card {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+  .card-latest {
+    -webkit-box-flex: 1 !important;
+        -ms-flex: 1 0 100% !important;
+            flex: 1 0 100% !important;
+  }
+  .culture-container {
+    margin-left: 0px;
+    width: auto;
+    height: 350px;
+  }
+  .footer-grid {
+    display: inline-block;
+  }
+  .footer-basic {
+    display: inline-block;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=mediaquery.css.map */

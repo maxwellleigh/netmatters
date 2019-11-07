@@ -1,0 +1,1068 @@
+/*font-family*/
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+}
+
+/*header*/
+.header-style {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin-bottom: 5px;
+  height: 7rem;
+}
+
+.contact-header-logo {
+  display: none;
+  color: #333645;
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.contact-header-logo:hover {
+  color: #333645;
+  background-color: #fff;
+  text-decoration: underline;
+}
+
+.btn {
+  font-family: 'Poppins', sans-serif;
+  font: 18px, 'Poppins', sans-serif;
+  color: #fff;
+  background: #4183d7;
+  text-transform: uppercase;
+}
+
+.header-btn {
+  padding: 1.25rem;
+}
+
+.btn-header-div {
+  padding-top: 1rem;
+}
+
+.support {
+  border: none;
+  text-align: center;
+}
+
+.support:active {
+  border: none;
+}
+
+.support:hover {
+  background: #245ea8;
+}
+
+.contact_us {
+  border: none;
+  color: #fff;
+  background: #999aa2;
+}
+
+.contact_us:hover {
+  border: none;
+  color: #fff;
+  background: #8c8d96;
+}
+
+.menu {
+  border: none;
+  color: #fff;
+  background: #333645;
+}
+
+.menu:hover {
+  border: none;
+  color: #fff;
+  background: #282b36;
+}
+
+.hamburger {
+  width: 35px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*navbar*/
+.navbar-container {
+  background-color: #333645;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1px;
+  text-transform: uppercase;
+}
+
+.small {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+.navbox {
+  border: 0.3px solid #000;
+  -webkit-box-shadow: 0.5px 0.5px #999aa2;
+          box-shadow: 0.5px 0.5px #999aa2;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+.navbar-subbar {
+  z-index: 101;
+  height: 3rem;
+  margin-top: 0.5rem;
+  display: none;
+  width: 100%;
+  color: #fff;
+  line-height: 3rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+}
+
+.navbar-subbar a {
+  color: #fff;
+}
+
+.navbar-subbar a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-subbar a::after {
+  content: '';
+  display: inline-block;
+  width: .6rem;
+  height: 0.1rem;
+  background-color: white;
+  vertical-align: middle;
+  margin: 0 0.8rem 4px 0.8rem;
+}
+
+.navbar-subbar a:last-child::after {
+  display: none;
+}
+
+.subnav-a {
+  font-style: bold;
+  letter-spacing: 0.3px;
+}
+
+/* web design sub */
+.webdesign-navbar-logo {
+  color: #926fb1;
+}
+
+.webdesign_a {
+  color: #fff;
+  text-align: center;
+}
+
+.webdesign_a:hover {
+  background: #926fb1;
+  color: #fff;
+  text-decoration: none;
+}
+
+.webdesign_a:hover .webdesign-navbar-logo {
+  color: #fff;
+}
+
+.webdesign_a:hover .navbar-subbar {
+  display: block;
+}
+
+.navbar-webdesign-subbar {
+  background: #855ea8;
+}
+
+/*it support nav*/
+.navbar-itsupport-subbar {
+  background: #245ea8;
+}
+
+.itsupport-navbar-logo {
+  color: #286abd;
+}
+
+.itsupport_a {
+  color: #fff;
+  text-align: center;
+}
+
+.itsupport_a:hover {
+  background: #286abd;
+  color: #fff;
+  text-decoration: none;
+}
+
+.itsupport_a:hover .itsupport-navbar-logo {
+  color: #fff;
+}
+
+.itsupport_a:hover .navbar-subbar {
+  display: block;
+}
+
+/* telecomsservices */
+.navbar-telecomsservices-subbar {
+  background: #a72724;
+}
+
+.telecomsservices_a {
+  color: #fff;
+  text-align: center;
+}
+
+.telecomsservices-navbar-logo {
+  color: #bc2c28;
+}
+
+.telecomsservices_a:hover {
+  background: #bc2c28;
+  color: #fff;
+  text-decoration: none;
+}
+
+.telecomsservices_a:hover .telecomsservices-navbar-logo {
+  color: #fff;
+}
+
+.telecomsservices_a:hover .navbar-subbar {
+  display: block;
+}
+
+/*bespoke software*/
+.navbar-bespokesoftware-subbar {
+  background-color: #485b71;
+}
+
+.bespokesoftware_a {
+  text-align: center;
+  color: #fff;
+}
+
+.bespokesoftware-navbar-logo {
+  color: #526781;
+}
+
+.bespokesoftware_a:hover {
+  background: #526781;
+  color: #fff;
+  text-decoration: none;
+}
+
+.bespokesoftware_a:hover .bespokesoftware-navbar-logo {
+  color: #fff;
+}
+
+.bespokesoftware_a:hover .navbar-subbar {
+  display: block;
+}
+
+/*digitalmarketing*/
+.navbar-digitalmarketing-subbar {
+  background-color: #29b765;
+}
+
+.digitalmarketing-navbar-logo {
+  color: #2ecc71;
+}
+
+.digitalmarketing_a {
+  text-align: center;
+  color: #fff;
+}
+
+.digitalmarketing_a:hover {
+  background: #2ecc71;
+  color: #fff;
+  text-decoration: none;
+}
+
+.digitalmarketing_a:hover .digitalmarketing-navbar-logo {
+  color: #fff;
+}
+
+.digitalmarketing_a:hover .navbar-subbar {
+  display: block;
+}
+
+/*cyber security */
+.navbar-cybersecurity-subbar {
+  background-color: #f50c46;
+}
+
+.cybersecurity-navbar-logo {
+  color: #f62459;
+}
+
+.cybersecurity_a {
+  text-align: center;
+  color: #fff;
+}
+
+.cybersecurity_a:hover {
+  background: #f62459;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cybersecurity_a:hover .cybersecurity-navbar-logo {
+  color: #fff;
+}
+
+.cybersecurity_a:hover .navbar-subbar {
+  display: block;
+}
+
+/*image-slider*/
+.image-slider-container {
+  width: 100%;
+  height: 759px;
+}
+
+#image-slider {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(0, 0, 0, 0.918)), to(rgba(255, 255, 255, 0))), url("img/home-rRnH.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.918) 10%, rgba(255, 255, 255, 0)), url("img/home-rRnH.jpg");
+  width: 100%;
+  height: 759px;
+  background-size: cover;
+}
+
+/*cards - directory*/
+.card-main {
+  margin: 15px;
+  padding: 20px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  text-align: center;
+  border: 1px 75%;
+  font-size: 14px;
+  letter-spacing: .4;
+}
+
+.card-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 2;
+      grid-template-rows: 2;
+  -ms-grid-columns: repeat 4, 1fr;
+      grid-template-columns: repeat 4, 1fr;
+      grid-template-areas: "alpha alpha  beta beta" "telecomsservices-card bespokesoftware-card gamma omega";
+}
+
+.hamburger-2 {
+  width: 35px;
+  height: 3px;
+  background-color: #000;
+  margin: auto;
+}
+
+.card-logo {
+  font-size: 18px;
+  color: #fff;
+  border-radius: 35px;
+}
+
+.btn-card {
+  margin-top: 5px;
+}
+
+/*webdesign card*/
+.webdesign-card {
+  color: #000;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: alpha;
+}
+
+.webdesign-card:hover {
+  color: #fff;
+  background: #926fb1;
+  -webkit-transition: 0;
+  transition: 0;
+  transition-delay: 0;
+  -webkit-transition-delay: 0;
+}
+
+.webdesign-card:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.webdesign-card:hover .webdesign-logo {
+  color: #926fb1;
+  background: #fff;
+  border: 25px solid #fff;
+  border-radius: 35px;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.webdesign-card:hover .webdesign-card-primary-button {
+  background-color: #fff;
+  border: none;
+  font-style: bold;
+  color: #926fb1;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.webdesign-logo {
+  background: #926fb1;
+  border: 25px solid #926fb1;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.webdesign-card-primary-button {
+  background-color: #926fb1;
+  border: none;
+  font-style: bold;
+  color: #fff;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+/*itsupport-card*/
+.itsupport-card {
+  color: #000;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: beta;
+}
+
+.itsupport-card:hover {
+  color: #fff;
+  background: #286abd;
+  -webkit-transition: 0;
+  transition: 0;
+  transition-delay: 0;
+  -webkit-transition-delay: 0;
+}
+
+.itsupport-card:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.itsupport-card:hover .itsupport-logo {
+  color: #286abd;
+  background: #fff;
+  border: 25px solid #fff;
+  border-radius: 35px;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.itsupport-card:hover .itsupport-card-primary-button {
+  background-color: #fff;
+  border: none;
+  font-style: bold;
+  color: #286abd;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.itsupport-logo {
+  background: #286abd;
+  border: 25px solid #286abd;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.itsupport-card-primary-button {
+  background-color: #286abd;
+  border: none;
+  font-style: bold;
+  color: #fff;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+/*telecoms services*/
+.telecomsservices-card {
+  color: #000;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  grid-area: auto;
+}
+
+.telecomsservices-card:hover {
+  color: #fff;
+  background: #bc2c28;
+  -webkit-transition: 0;
+  transition: 0;
+  transition-delay: 0;
+  -webkit-transition-delay: 0;
+}
+
+.telecomsservices-card:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.telecomsservices-card:hover .telecomsservices-logo {
+  color: #bc2c28;
+  background: #fff;
+  border: 25px solid #fff;
+  border-radius: 35px;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.telecomsservices-card:hover .telecomsservices-card-primary-button {
+  background-color: #fff;
+  border: none;
+  font-style: bold;
+  color: #bc2c28;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.telecomsservices-logo {
+  background: #bc2c28;
+  border: 25px solid #bc2c28;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.telecomsservices-card-primary-button {
+  background-color: #bc2c28;
+  border: none;
+  font-style: bold;
+  color: #fff;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+/*bespoke software */
+.bespokesoftware-card {
+  color: #000;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  grid-area: auto;
+}
+
+.bespokesoftware-card:hover {
+  color: #fff;
+  background: #526781;
+  -webkit-transition: 0;
+  transition: 0;
+  transition-delay: 0;
+  -webkit-transition-delay: 0;
+}
+
+.bespokesoftware-card:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bespokesoftware-card:hover .bespokesoftware-logo {
+  color: #526781;
+  background: #fff;
+  border: 25px solid #fff;
+  border-radius: 35px;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.bespokesoftware-card:hover .bespokesoftware-card-primary-button {
+  background-color: #fff;
+  border: none;
+  font-style: bold;
+  color: #526781;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.bespokesoftware-logo {
+  background: #526781;
+  border: 25px solid #526781;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.bespokesoftware-card-primary-button {
+  background-color: #526781;
+  border: none;
+  font-style: bold;
+  color: #fff;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+/* digital marketing*/
+.digitalmarketing-card {
+  color: #000;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: gamma;
+}
+
+.digitalmarketing-card:hover {
+  color: #fff;
+  background: #2ecc71;
+  -webkit-transition: 0;
+  transition: 0;
+  transition-delay: 0;
+  -webkit-transition-delay: 0;
+}
+
+.digitalmarketing-card:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.digitalmarketing-card:hover .digitalmarketing-logo {
+  color: #2ecc71;
+  background: #fff;
+  border: 25px solid #fff;
+  border-radius: 35px;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.digitalmarketing-card:hover .digitalmarketing-card-primary-button {
+  background-color: #fff;
+  border: none;
+  font-style: bold;
+  color: #2ecc71;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.digitalmarketing-logo {
+  background: #2ecc71;
+  border: 25px solid #2ecc71;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.digitalmarketing-card-primary-button {
+  background-color: #2ecc71;
+  border: none;
+  font-style: bold;
+  color: #fff;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+/*cyber security*/
+.cybersecurity-card {
+  color: #000;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: omega;
+}
+
+.cybersecurity-card:hover {
+  color: #fff;
+  background: #f62459;
+  -webkit-transition: 0;
+  transition: 0;
+  transition-delay: 0;
+  -webkit-transition-delay: 0;
+}
+
+.cybersecurity-card:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cybersecurity-card:hover .cybersecurity-logo {
+  color: #f62459;
+  background: #fff;
+  border: 25px solid #fff;
+  border-radius: 35px;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.cybersecurity-card:hover .cybersecurity-card-primary-button {
+  background-color: #fff;
+  border: none;
+  font-style: bold;
+  color: #f62459;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.cybersecurity-logo {
+  background: #f62459;
+  border: 25px solid #f62459;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+.cybersecurity-card-primary-button {
+  background-color: #f62459;
+  border: none;
+  font-style: bold;
+  color: #fff;
+  -webkit-transition: 0;
+  transition: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+/*blurb */
+h2 {
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.culture {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding-top: 25px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background: #333645;
+  background-image: url(img/branded.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h-culture {
+  font: 18px strong;
+  letter-spacing: .5px;
+}
+
+.btn-culture {
+  background-color: #fff;
+  color: #333645;
+  padding: 1.45rem, 0.5rem, 1.4rem, 0.75rem;
+  margin-top: 6px;
+}
+
+.culture-container {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+/*Latest - cards- images- */
+.latest-card-container {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.latest-head {
+  font-size: 1.25rem;
+}
+
+.latest-bg {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05%, rgba(192, 192, 192, 0.623)), to(#fff));
+  background: linear-gradient(top, rgba(192, 192, 192, 0.623) 0.05%, #fff);
+}
+
+.hamburger-3 {
+  position: relative;
+  width: 65px;
+  height: 5px;
+  background-color: #000;
+}
+
+.latest-card-btn {
+  border: none;
+  font-style: bold;
+  color: #fff;
+}
+
+.card-title-link {
+  font-size: 16px;
+  font-style: bold;
+}
+
+.latest-card-primary-link,
+.latest-card-primary-link:hover {
+  color: #2ecc71;
+}
+
+.latest-card-primary-button {
+  background-color: #2ecc71;
+}
+
+.latest-card-primary-button:hover {
+  background-color: #29b765;
+  text-decoration: none;
+}
+
+.primary-notify-badge {
+  z-index: 102;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  background: #2ecc71;
+  text-align: center;
+  border: none;
+  color: white;
+  padding: .2rem .7rem .2rem 0.7rem;
+  font-size: 14px;
+}
+
+.primary-notify-badge:hover {
+  text-decoration: underline;
+}
+
+.latest-card-secondary-link,
+.latest-card-secondary-link:hover {
+  color: #926fb1;
+}
+
+.latest-card-secondary-button {
+  background-color: #926fb1;
+}
+
+.latest-card-secondary-button:hover {
+  background-color: #855ea8;
+  text-decoration: none;
+}
+
+.secondary-notify-badge {
+  z-index: 102;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  background: #926fb1;
+  text-align: center;
+  border: none;
+  color: white;
+  padding: .2rem .7rem .2rem 0.7rem;
+  font-size: 14px;
+}
+
+.secondary-notify-badge:hover {
+  text-decoration: underline;
+}
+
+.latest-card-tertiary-link,
+.latest-card-tertiary-link:hover {
+  color: #de093f;
+}
+
+.latest-card-tertiary-button {
+  background-color: #de093f;
+}
+
+.latest-card-tertiary-button:hover {
+  background-color: #c50838;
+  text-decoration: none;
+}
+
+.tertiary-notify-badge {
+  z-index: 102;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  background: #de093f;
+  text-align: center;
+  border: none;
+  color: white;
+  padding: .2rem .7rem .2rem 0.7rem;
+  font-size: 14px;
+}
+
+.tertiary-notify-badge:hover {
+  text-decoration: underline;
+}
+
+.card-image-wrapper {
+  overflow: hidden;
+}
+
+.card-latest {
+  width: 450px;
+  margin-bottom: 25px;
+}
+
+.card-latest-image {
+  -webkit-transition: .2s;
+  transition: .2s;
+  margin: 0 auto;
+}
+
+.card-latest-image:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-filter: opacity(75%);
+          filter: opacity(75%);
+}
+
+.card-img-logo {
+  padding: .15rem .15rem 0 .25rem;
+  margin: .25rem .25rem 0 .25rem;
+  border-radius: 50%;
+}
+
+/*footer*/
+/*website logos*/
+.footer-weblogo-container {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05%, #e7e6e6), to(#fff));
+  background: linear-gradient(top, #e7e6e6 0.05%, #fff);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/*blurb footer -details-contact-sitemap*/
+.footer-basic-container {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: #fff;
+  background: #333645;
+  margin-bottom: 10px;
+}
+
+.footer-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-basic {
+  padding-top: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.footer-basic a {
+  color: #fff;
+}
+
+.social-logo {
+  background-color: #282b36;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.social-logo-icon {
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.logo-fb:hover {
+  background-color: #286abd;
+}
+
+.logo-twit:hover {
+  background-color: #00aced;
+}
+
+.logo-link:hover {
+  background-color: #4183d7;
+}
+
+/*partner images container and images */
+.footer-partner-container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer-image {
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.googlesvg {
+  max-width: 20%;
+}
+
+.footer-image:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+/*# sourceMappingURL=main.css.map */
