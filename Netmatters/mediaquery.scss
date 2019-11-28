@@ -1,0 +1,549 @@
+/*media queries */
+
+
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+
+    .client-bussey:hover {
+        .graybussey {
+            display: none;
+        }
+    }
+
+    .client-crane:hover {
+        .graycrane {
+            display: none;
+        }
+    }
+
+    .client-beat:hover {
+        .graybeat {
+            display: none;
+        }
+    }
+
+    .client-northern:hover {
+        .graynorthern {
+            display: none;
+        }
+    }
+
+    .graybussey {
+        position: absolute;
+        display: block;
+        top: 2943px;
+    }
+
+    .graycrane {
+        position: absolute;
+        display: block;
+        top: 2943px;
+    }
+
+    .graybeat {
+        position: absolute;
+        display: block;
+        top: 2943px;
+    }
+
+    .graynorthern {
+        position: absolute;
+        display: block;
+        top: 2943px;
+    }
+
+    .partner-future:hover {
+        .futuregray {
+            display: none;
+        }
+    }
+
+    .partner-qms:hover {
+        .qmsgray {
+            display: none;
+        }
+    }
+
+    .partner-carbon:hover {
+        .carbongray {
+            display: none;
+        }
+    }
+
+    .futuregray {
+        position: absolute;
+        display: block;
+        top: 3398px;
+    }
+
+    .qmsgray {
+        position: absolute;
+        display: block;
+        top: 3398px;
+    }
+
+    .carbongray {
+        position: absolute;
+        display: block;
+        top: 3398px;
+    }
+
+    .footer-div-container {
+        text-align: left;
+    }
+
+    .social-logo {
+        text-align: center;
+        padding: 0.8rem 2.4rem 0.8rem 2.6rem;
+        margin-right: 5px;
+    }
+
+    .footer-basic {
+        margin: 0px 0px;
+    }
+
+    .col-6 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 1581px) {
+    .busseytool {
+        left: 6.5%;
+    }
+
+    .busseytip {
+        left: 15%;
+    }
+
+    .cranetool {
+        left: 29.5%;
+    }
+
+    .cranetip {
+        left: 38%;
+    }
+
+    .beattool {
+        left: 46.5%;
+    }
+
+    .beattip {
+        left: 56%;
+    }
+
+    .northerntool {
+        left: 67.5%;
+    }
+
+    .northerntip {
+        left: 76%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .footer-div-container {
+        flex-flow: wrap;
+    }
+
+    .footer-basic {
+        width: 35%;
+    }
+
+    .busseytool {
+        left: -1%;
+        top: 2802px;
+    }
+
+    .busseytip {
+        left: 8.5%;
+        top: 2849px;
+    }
+
+    .cranetool {
+        left: 25%;
+        top: 2760px;
+        
+    }
+
+    .cranetip {
+        left: 35%;
+        top: 2850px;
+    }
+
+    .beattool {
+        left: 48%;
+        top: 2781px;
+    }
+
+    .beattip {
+        left: 58%;
+        top: 2850px;
+    }
+
+    .northerntool {
+        left: 71%;
+        top: 2760px;
+    }
+
+    .northerntip {
+        left: 80.5%;
+        top: 2850px;
+    }
+
+    #gray-bussey {
+        max-width: 78.5%;
+    }
+
+    .graybussey {
+        top: 2948px;
+    }
+
+    #gray-crane {
+        max-width: 78.5%;
+    }
+
+    .graycrane {
+        top: 2948px;
+    }
+
+    #gray-beat {
+        max-width: 78.5%;
+    }
+
+    .graybeat {
+        top: 2948px;
+    }
+
+    #gray-northern {
+        max-width: 78.775%;
+    }
+
+    .graynorthern {
+        top: 2948px;
+    }
+
+    #future-gray {
+        width: 34.5px;
+    }
+
+    .futuregray {
+        top: 3372px;
+    }
+
+    #qms-gray {
+        width: 47px;
+    }
+
+    .qmsgray {
+        top: 3372px;
+    }
+
+    #carbon-gray {
+        width: 137.5px;
+    }
+
+    .carbongray {
+        top: 3372px;
+    }
+
+    #tertiary-card {
+        display: none !important;
+    }
+
+    .culture-container {
+        align-self: left;
+        width: 900px;
+        height: 400px;
+    }
+
+    .footer-image {
+        width: auto;
+        height: 55px;
+    }
+
+    .navbar-subbar {
+        font-size: 12px;
+        letter-spacing: 0.2px;
+    }
+
+    @media only screen and (max-width: 1230px) {
+
+        #gray-northern {
+            max-width: 78.725%;
+        }
+    }
+
+    @media only screen and (max-width: 1228px) {
+        #gray-crane {
+            max-width: 78.55%;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .busseytool {
+            left: 4.5%;
+            top: 2769px;
+        }
+    
+        .busseytip {
+            left: 14.5%;
+            top: 2829px;
+        }
+    
+        .cranetool {
+            left: 25%;
+            top: 2727px;
+            
+        }
+    
+        .cranetip {
+            left: 35%;
+            top: 2825px;
+        }
+    
+        .beattool {
+            left: 46%;
+            top: 2749px;
+        }
+    
+        .beattip {
+            left: 56%;
+            top: 2823px;
+        }
+    
+        .northerntool {
+            left: 67%;
+            top: 2728px;
+        }
+    
+        .northerntip {
+            left: 77%;
+            top: 2825px;
+        }
+
+        .graybussey {
+            top: 2915px;
+        }
+
+        .graycrane {
+            top: 2915px;
+        }
+
+        .graybeat {
+            top: 2915px;
+        }
+
+        .graynorthern {
+            top: 2915px;
+        }
+
+        .futuregray {
+            top: 3545px;
+        }
+
+        .qmsgray {
+            top: 3545px;
+        }
+
+        .carbongray {
+            top: 3545px;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        .busseytool {
+            width: 200px;
+            top: 3237.5px;
+            left: 10.5%;
+        }
+    
+        .busseytip {
+            left: 17.5%;
+            top: 3305px;
+        }
+    
+        .cranetool {
+            left: 28%;
+            width: 200px;
+            top: 3154px;           
+        }
+    
+        .cranetip {
+            left: 35%;
+            top: 3305px;
+        }
+    
+        .beattool {
+            left: 46%;
+            width: 200px;
+            top: 3237.5px;
+        }
+    
+        .beattip {
+            left: 53%;
+            top: 3305px;
+        }
+    
+        .northerntool {
+            left: 65%;
+            width: 200px;
+            top: 3195.5px;
+        }
+    
+        .northerntip {
+            left: 72%;
+            top: 3305px;
+        }
+
+        #gray-bussey {
+            max-width: 64.5%;
+        }
+
+        .graybussey {
+            top: 3406px;
+        }
+
+        #gray-crane {
+            max-width: 64.25%;
+        }
+
+        .graycrane {
+            top: 3406px;
+        }
+
+        #gray-beat {
+            max-width: 64%;
+        }
+
+        .graybeat {
+            top: 3406px;
+        }
+
+        #gray-northern {
+            max-width: 64.25%;
+        }
+
+        .graynorthern {
+            top: 3406px;
+        }
+
+        #future-gray {
+            width: 28.5px;
+        }
+
+        .futuregray {
+            top: 4026px;
+        }
+
+        #qms-gray {
+            width: 38.5px;
+        }
+
+        .qmsgray {
+            top: 4026px;
+        }
+
+        #carbon-gray {
+            width: 112.5px;
+        }
+
+        .carbongray {
+            top: 4026px;
+        }
+
+        .navbar-container {
+            display: none;
+        }
+
+        .footer-image {
+            width: auto;
+            height: 45px;
+        }
+
+
+        .support {
+            display: none;
+        }
+
+        .contact_us {
+            display: none;
+        }
+
+
+        .culture {
+            background-image: none;
+        }
+
+        .culture-container {
+            margin-left: 0px;
+            width: 750px;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+
+        .footer-weblogo-container,
+        .footer-partner-container {
+            display: none;
+        }
+
+        .footer-div-container {
+            flex-direction: column;
+        }
+
+        .header-style {
+            width: 100%;
+        }
+
+        .contact-header-logo {
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: 25px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .header-image {
+            margin-top: 15px;
+            margin-left: 0px;
+            width: 75%;
+            height: 75%;
+        }
+
+        .card-main {
+            margin: 5px;
+            width: 100%;
+        }
+
+
+
+        #tertiary-card {
+            display: inline-flex !important;
+
+        }
+
+        .card-latest {
+            flex: 1 0 100% !important;
+        }
+
+
+        .culture-container {
+            margin-left: 0px;
+            width: auto;
+            height: 350px;
+        }
+
+        .footer-grid {
+            display: inline-block;
+        }
+
+        .footer-basic {
+            display: inline-block;
+            width: 100%;
+        }
+    }
+}
